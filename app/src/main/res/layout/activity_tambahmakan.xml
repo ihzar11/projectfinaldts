@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tambahmakan">
+
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Makanan"/>
+    <EditText
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:id="@+id/edtNamaMakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Makanan"/>
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalori Makanan"/>
+    <EditText
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:id="@+id/edtKaloriMakanan"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kalori Makanan"/>
+    <Button
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:id="@+id/btnsimpan"
+        android:text="Simpan data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSimpan_onClick"/>
+    <Button
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:id="@+id/btnhapus"
+        android:text="Hapus data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnHapus_onClick"/>
+    <Button
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:id="@+id/btnkembali"
+        android:text="kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnKembali_onClick"/>
+</LinearLayout>
